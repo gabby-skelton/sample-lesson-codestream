@@ -33,11 +33,16 @@ Generally, in programming, the *code* provides instructions for the *computer* a
 In Java, there are 3 types of comments: 
 
 1. **Single-line comments** are used for brief explanations. 
+    
     `//This is a single line comment.`
     
 2. **Multi-line comments** are used when a more lengthy description is needed. 
-    `/* This is a multi line comment. It is
-    longer than a single line comment. It will typically be paragraph length. */`
+    
+    ``` java
+    /* This is a multi line comment. 
+    It is longer than a single line comment.   
+    It will typically be paragraph length. */
+    ```
     
 3. **Documentation comments** are used for large projects and are generally a full page with information about the program. We won’t be using these in this course. 
 
@@ -55,7 +60,7 @@ In this project, you will learn how to use 2 different comment types and you wil
 
 1. First, we are going to write a **multi-line comment** that describes the program’s purpose. A multi-line comment starts with `/*` and ends with `*/`.
 
-    ```java
+    ``` java
     /* This is a multi-line comment. 
        I can use it to write a brief description of my program 
        that will not be displayed on my console: 
@@ -66,7 +71,7 @@ In this project, you will learn how to use 2 different comment types and you wil
 
 2. Then, copy and paste the following code into your window. Don’t worry about what it all means yet, we’ll go over it more in the next lesson. 
 
-    ```java
+    ``` java
      public class HelloWorld {
          // This is a single-line comment.    
         public static void main(String[] args) {
@@ -79,7 +84,7 @@ In this project, you will learn how to use 2 different comment types and you wil
 
 3. Finally, let’s type our first line of code! Under the single-line comment, type the following: 
 
-    ```java
+    ``` java
     System.out.println("Hello, World");
     ```
 
@@ -87,7 +92,7 @@ In this project, you will learn how to use 2 different comment types and you wil
 
 4. Your final product should look like this: 
 
-    ```java
+    ``` java
     /* This is a multi-line comment. 
        I can use it to write a brief description of my program 
        that will not be displayed on my console: 
